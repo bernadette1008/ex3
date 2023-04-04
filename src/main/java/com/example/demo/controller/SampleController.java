@@ -16,7 +16,7 @@ import java.util.stream.IntStream;
 @RequestMapping("/sample")
 @Log4j2
 public class SampleController {
-    @GetMapping("/ex")
+    @GetMapping("/ex1")
     public void ex1(){
         log.info("ex1의 정보........");
     }
